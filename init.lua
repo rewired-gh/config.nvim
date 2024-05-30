@@ -231,7 +231,7 @@ require('lazy').setup({
       {
         '<leader>op',
         function()
-          require('oil').open_float()
+          require('oil').open()
         end,
         mode = 'n',
         desc = '[O]pen [p]arent directory',
